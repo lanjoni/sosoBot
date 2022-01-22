@@ -1,3 +1,4 @@
+”start”: “node index”
 {
   "name": "sosobot",
   "version": "1.0.0",
@@ -13,4 +14,3 @@
     "tmi.js": "^1.8.5"
   }
 }
-”start”: “node index”

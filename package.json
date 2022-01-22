@@ -1,3 +1,4 @@
+"start": "node sosoheart.js",
 {
   "start": "node sosoheart.js",
   "name": "sosobot",
@@ -15,3 +16,4 @@
   },
   "start": "node sosoheart"
 }
+"start": "node sosoheart.js",

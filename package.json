@@ -1,5 +1,5 @@
+”start”: “node index”
 {
-  ”start”: “node index”,
   "name": "sosobot",
   "version": "1.0.0",
   "description": "",

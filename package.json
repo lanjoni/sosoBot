@@ -1,5 +1,5 @@
 {
-  "start": "node index",
+  "start": "node sosoheart",
   "name": "sosobot",
   "version": "1.0.0",
   "description": "",

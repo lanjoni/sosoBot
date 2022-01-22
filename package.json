@@ -1,5 +1,4 @@
 {
-  "start": "node sosoheart.js",
   "name": "sosobot",
   "version": "1.0.0",
   "description": "",
@@ -13,4 +12,8 @@
   "dependencies": {
     "tmi.js": "^1.8.5"
   }
+}
+
+"scripts": {
+    "start": "node your-script.js"
 }

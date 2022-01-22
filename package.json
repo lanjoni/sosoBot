@@ -12,5 +12,5 @@
   "dependencies": {
     "tmi.js": "^1.8.5"
   }
-  ”start”: “node index”
 }
+”start”: “node index”

@@ -1,3 +1,6 @@
+"scripts": {
+    "start: "node sosoheart.js"
+  },
 {
   "name": "sosobot",
   "version": "1.0.0",
@@ -11,7 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "tmi.js": "^1.8.5"
-  },
-  "start": "node sosoheart"
+  }
 }
 

@@ -1,7 +1,5 @@
 "scripts": {
-    "start": "node sosoheart.js"
-  },
-{
+  "start": "node sosoheart.js",
   "name": "sosobot",
   "version": "1.0.0",
   "description": "",

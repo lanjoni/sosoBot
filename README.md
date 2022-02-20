@@ -2,7 +2,7 @@
 
 _Bot para uso pessoal na minha <a href="https://twitch.tv/holly1v4"> Twitch </a> pessoal utilizando JavaScript!_
 
-O bot possui como finalidade o funcionamento (baseado em NODEJS) conectado com a Twitch. Para que todo o processo seja possível, se faz necessário configurar as constantes que regulam os seus dados (é preciso que você crie uma conta especialmente para o bot, e gere um token de funcionamento no site <a href="https://twitchapps.com/tmi/">TwitchApps</a>.
+O bot possui como finalidade o funcionamento (baseado em NodeJS) conectado com a Twitch. Para que todo o processo seja possível, se faz necessário configurar as constantes que regulam os seus dados (é preciso que você crie uma conta especialmente para o bot, e gere um token de funcionamento no site <a href="https://twitchapps.com/tmi/">TwitchApps</a>.
 
 Após realizar a conexão utilizando seus dados (nome do canal, nome da conta criada para o bot e token de acesso gerado anteriormente), basta que alteremos os nossos amigáveis _if's e else's_, adicionando assim nossos comandos!
 
@@ -18,7 +18,7 @@ Bom proveito! 😉
 
 _Bot for personal use on my <a href="https://twitch.tv/holly1v4">Twitch </a> using JavaScript!_
 
-The bot is intended to work (based on NODEJS) connected with Twitch. For the entire process to be possible, it is necessary to configure the constants that regulate your data (you must create an account especially for the bot, and generate a working token on the website <a href="https://twitchapps.com/tmi/">TwitchApps</a>.
+The bot is intended to work (based on NodeJS) connected with Twitch. For the entire process to be possible, it is necessary to configure the constants that regulate your data (you must create an account especially for the bot, and generate a working token on the website <a href="https://twitchapps.com/tmi/">TwitchApps</a>.
 
 After making the connection using your data (channel name, account name created for the bot and previously generated access token), we just need to change our friendly _if's and else's_, thus adding our commands!
 

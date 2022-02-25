@@ -1,28 +1,31 @@
+require('dotenv/config');
+
 console.log("Tudo funcionando!");
 
 //bot desenvolvido por @gutoso no GitHub!
 
 const tmi = require('tmi.js');
-const botName = 'botsoso'
-const channel = 'holly1v4'
-const token = 'oauth:cz4vao0amqlu3eapabosm7tt96cfjj'
+const botName = process.env.BOT_NAME
+const channel = process.env.CHANNEL
+const token = process.env.TOKEN
+
 //site para pegar o token: https://twitchapps.com/tmi/
 
 const opts = {
     identity: {
-    username: botName, 
+    username: botName,
     password: token
     },
     channels: [ channel ]
   };
-  
+
 const client = new tmi.client(opts);
 
 function mensagemChegou(alvo, contexto, mensagem, ehBot) {
     if (ehBot) {
       return; //se for mensagens do bot ele não faz nada!
-    } 
-  
+    }
+
 const nomeDoComando = mensagem.trim(); // remove o espaço em branco da mensagem para verificar o comando - fica sem os pontos!
   // checando os comandos
   if (nomeDoComando === '!donate') {
@@ -81,9 +84,9 @@ const nomeDoComando = mensagem.trim(); // remove o espaço em branco da mensagem
     client.say(alvo, `/me !donate, !discord, !youtube, !uptime, !teuz, !teclado, !teclado, !sens, !res, !react, !namorada, !mousepad, !mouse, !headset, !earnings, !dpi, !github - bot desenvolvido pelo dono desta stream (@gutoso on github)`);
   } else {
     console.log(`* Não conheço o comando ${nomeDoComando}`);
-  }  
+  }
 }
-  
+
 function entrouNoChatDaTwitch(endereco, porta) {
     console.log(`* Bot entrou no endereço ${endereco}:${porta}`);
 }

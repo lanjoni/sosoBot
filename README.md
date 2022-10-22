@@ -14,7 +14,7 @@ Detalhe: as configurações de portas já são definidas automaticamente ao info
 
 Bom proveito! 😉
 
---- 
+---
 
 _Bot for personal use on my <a href="https://twitch.tv/holly1v4">Twitch </a> using JavaScript!_
 
